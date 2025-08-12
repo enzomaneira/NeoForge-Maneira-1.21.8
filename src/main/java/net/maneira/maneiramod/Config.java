@@ -1,4 +1,4 @@
-package net.maneira.mod;
+package net.maneira.maneiramod;
 
 import java.util.List;
 
