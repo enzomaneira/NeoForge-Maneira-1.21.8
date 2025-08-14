@@ -1,5 +1,9 @@
 {
   "item.maneiramod.bismuth": "Bismuth",
 
-  "block.maneiramod.bismuth_block": "Block of Bismuth"
+  "block.maneiramod.bismuth_block": "Block of Bismuth",
+
+  "block.maneiramod.bismuth_ore": "Bismuth Ore",
+
+  "block.maneiramod.bismuth_deepslate_ore": "Bismuth Deepslate Ore"
 }

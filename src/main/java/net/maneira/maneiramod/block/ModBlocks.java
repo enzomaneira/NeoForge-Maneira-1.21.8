@@ -1,6 +1,8 @@
 package net.maneira.maneiramod.block;
 
 import net.maneira.maneiramod.ManeiraMod;
+import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.maneira.maneiramod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -23,6 +25,17 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock("bismuth_block",
             (properties) -> new RotatedPillarBlock(properties
                     .strength(0.5f).sound(SoundType.AMETHYST)));
+
+
+    public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock("bismuth_ore",
+            (properties) -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    properties.strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> BISMUTH_DEEPSLATE_ORE = registerBlock("bismuth_deepslate_ore",
+            (properties) -> new DropExperienceBlock(UniformInt.of(3, 6),
+                    properties.strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+
 
 
 
