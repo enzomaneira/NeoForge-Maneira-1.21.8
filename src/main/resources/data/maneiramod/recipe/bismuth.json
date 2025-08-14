@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["maneiramod:bismuth_block"],
+  "result": {
+    "id": "maneiramod:bismuth",
+    "count": 9
+  }
+}
